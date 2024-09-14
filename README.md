@@ -20,6 +20,24 @@ cd my_project
 git clone https://github.com/Shixi99/data-streaming-kafka.git
 cd data-streaming-kafka
 ```
+Add .env file to **ui** folder
+```
+DB_HOST=your_postgres_hostname
+DB_NAME=your_postgres_db_name
+DB_USER=your_postgres_username
+DB_PASS=your_postgres_password
+DB_PORT=5432
+```
+Add .env file to project folder (data-streaming-kafka)
+```
+POSTGRES_USER=your_postgres_username
+POSTGRES_PASSWORD=your_postgres_password
+POSTGRES_DB=your_postgres_db_name
+DB_NAME=your_postgres_db_name
+DB_USER=your_postgres_username
+DB_PASSWORD=your_postgres_password
+```
+
 Start docker containers
 ```
 docker-compose up -d
