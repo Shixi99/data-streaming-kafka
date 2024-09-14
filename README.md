@@ -8,6 +8,8 @@ In this simple data streaming project,
 ### Architecture of the project
 ![pipeline.img](pipeline.png)
 
+![stream.gif](stream.gif)
+
 To implement the project in your machine follow the steps below. First, make sure you have Docker installed on your machine.
 
 ```
